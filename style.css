@@ -1,0 +1,161 @@
+* {
+	text-align: left;
+	font: 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	
+}
+
+body {
+	background-color: white;
+	
+}
+
+#timeline {
+	background-color: #fffeff;
+	padding: 5px;
+	width: 30%;
+	left: 10px;
+	position: relative;
+	float: left;
+}
+
+
+
+#mentions {
+	background-color: #fffeff;
+	padding: 5px;
+	width: 30%;
+	left: 10px;
+	position: relative;
+	float: left;
+	margin-left: 20px;
+}
+
+div.mention {
+	border: 1px solid #fbac41;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	float: none;
+	position: relative;
+	clear: none;
+	margin: 5px;
+	padding: 5px;	
+}
+
+div.conversation {
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	margin-top: 10px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #d5d5d5;
+	z-index: 1;
+}
+
+div.update {
+	color: #000;
+	background-color: #fffeff;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	margin: 3px;
+	padding: 5px;
+}
+
+div.reply {
+	border: 1px solid #fbac41;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	width: 80%;
+	float: none;
+	position: relative;
+	clear: none;
+	margin: 5px;
+	padding: 5px;
+	left: 15%;
+}
+
+img.profile_image {
+	position: absolute;
+	float: left;
+	z-index: 1;
+}
+
+img.profile_image_reply {
+	position: relative;
+	clear: none;
+	float: right;
+	text-align: right;
+	bottom: 35px;
+
+}
+
+div.updateTime {
+	float: left;
+}
+
+p.link_description {
+	font-size: 10pt;
+}
+
+p.update_text {
+	text-align: left;
+	float: none;
+	vertical-align: top;
+	position: relative;
+	left: 10px;
+	margin-right: 5px;
+	margin-left: 40px;
+}
+
+p.reply_text {
+	text-align: left;
+	float: none;
+	vertical-align: top;
+	position: relative;
+
+	margin-left: 10px;
+	white-space: normal;
+
+}
+
+h1 {
+	font-size: 16pt;
+	text-align: center;
+}
+
+div.placeholder {
+	margin-bottom: 20px;
+}
+
+p.reply_screen_name {
+	color: #000;
+	font-size: 9pt;
+	text-align: right;
+	right: 10px;
+	white-space: normal;
+	margin-right: 45px;
+	vertical-align: bottom;
+}
+
+div.updateTime {
+	float: left;
+	top: -10px;
+	position: relative;
+	left: -15px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	color: #fcd6a9;
+	background-color: #000;
+	padding-right: 3px;
+	padding-left: 3px;
+	z-index: 2;
+}
